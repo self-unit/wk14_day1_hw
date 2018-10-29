@@ -1,12 +1,12 @@
-import React, { Container } from 'react';
+import React, { Component } from 'react';
 
-class ListItem extends Container{
+class ListItem extends Component{
 
     render(){
         return(
-            <div className="list-item">
-                <h4>This is a list item</h4>
-            </div>
+            <ul className="list-item">
+                <li><a href={this.props.link}>{this.props.children}</a></li>
+            </ul>
         )
     }
 }

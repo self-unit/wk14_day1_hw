@@ -1,13 +1,18 @@
-import React, { Container } from 'react';
+import React, { Component } from 'react';
 import ListItem from './ListItem';
 
-class List extends Container {
+class List extends Component {
 
     render(){
+        const listElements = this.props.data.map (item => {
+            return(
+                <ListItem key={item.id}
+                link={item.url}>{item.name}</ListItem>
+            )
+        })
         return(
             <div className="list-heading">
-                <h2>This is a heading</h2>
-                <ListItem />
+                {listElements}
             </div>
         )
     }

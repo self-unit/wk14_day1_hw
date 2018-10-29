@@ -1,11 +1,11 @@
-import React, { Container } from 'react';
+import React, { Component } from 'react';
 
-class Button extends Container {
+class Button extends Component {
 
     render(){
         return(
             <div className="button">
-                <button>View more upcoming releases >></button>
+                <a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases >></a>
             </div>
         )
     }
