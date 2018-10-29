@@ -1,4 +1,4 @@
-[
+const FILMS = [
     {
         id: 1,
         name: "Spider-Man: Into the Spider-Verse",

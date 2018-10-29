@@ -3,10 +3,11 @@ import './App.css';
 import ViewContainer from './containers/ViewContainer';
 
 class App extends Component {
+
   render() {
     return (
       <ViewContainer />
-    )
+    );
   }
 }
 
