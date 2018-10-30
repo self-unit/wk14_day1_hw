@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../components/Button';
 import List from '../components/List';
+import '../CSS/Style.css';
 
 class ViewContainer extends Component {
 
@@ -40,7 +41,9 @@ class ViewContainer extends Component {
         return(
             <div className="view-container">
                 <h2>Upcoming Film Releases for UK</h2>
+                <hr></hr>
                 <List data={this.state.data} />
+                <hr></hr>
                 <Button />
             </div>
         )

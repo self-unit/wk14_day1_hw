@@ -1,0 +1,18 @@
+.view-container {
+    display: block;
+    margin: 20%;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.view-container a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: aquamarine;
+}
+
+.button a {
+    text-decoration: none;
+}
