@@ -40,7 +40,7 @@ class ViewContainer extends Component {
     render() {
         return(
             <div className="view-container">
-                <h2>Upcoming Film Releases for UK</h2>
+                <h3>Upcoming Film Releases for UK</h3>
                 <hr></hr>
                 <List data={this.state.data} />
                 <hr></hr>
